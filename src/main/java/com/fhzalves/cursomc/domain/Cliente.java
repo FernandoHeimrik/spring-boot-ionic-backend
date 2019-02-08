@@ -50,7 +50,7 @@ public class Cliente implements Serializable {
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
-		CpfOuCnpj = cpfOuCnpj;
+		this.CpfOuCnpj = cpfOuCnpj;
 		this.tipo = tipo.getCod();
 	}
 
