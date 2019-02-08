@@ -6,13 +6,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.fhzalves.cursomc.domain.Categoria;
-import com.fhzalves.cursomc.repositories.CategoriasRepository;
+import com.fhzalves.cursomc.repositories.CategoriaRepository;
 
 @Service
 public class CategoriaService {
 
 	@Autowired
-	private CategoriasRepository repo;
+	private CategoriaRepository repo;
 	
 	
 	public Categoria find(Integer id) {
