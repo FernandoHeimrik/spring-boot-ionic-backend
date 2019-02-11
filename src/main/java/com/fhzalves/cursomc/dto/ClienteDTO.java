@@ -1,4 +1,4 @@
-package com.fhzalves.cursomc.dto;
+ package com.fhzalves.cursomc.dto;
 
 import java.io.Serializable;
 
